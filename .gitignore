@@ -1,0 +1,13 @@
+# Ignore everything by default
+/*
+
+# Explicitly allow the configuration and skills
+!/settings.json
+!/skills/
+!/.gitignore
+
+# Ensure no local/secret files inside the skills directory get tracked
+skills/**/.env
+skills/**/*.local.json
+skills/**/tmp/
+skills/**/*.log

@@ -1,0 +1,38 @@
+{
+  "theme": "Default",
+  "selectedAuthType": "oauth-personal",
+  "security": {
+    "auth": {
+      "selectedType": "gemini-api-key"
+    }
+  },
+  "general": {
+    "plan": {
+      "directory": "~/.gemini/plans"
+    },
+    "sessionRetention": {
+      "maxAge": "15d"
+    }
+  },
+  "ui": {
+    "autoThemeSwitching": false,
+    "inlineThinkingMode": "full",
+    "showStatusInTitle": true,
+    "escapePastedAtSymbols": true,
+    "footer": {
+      "hideContextPercentage": false
+    },
+    "showMemoryUsage": true,
+    "showCitations": true,
+    "showModelInfoInChat": true,
+    "showUserIdentity": false
+  },
+  "model": {
+    "compressionThreshold": 0.75
+  },
+  "context": {
+    "fileFiltering": {
+      "respectGitIgnore": false
+    }
+  }
+}
