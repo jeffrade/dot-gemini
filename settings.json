@@ -23,6 +23,7 @@
     "showUserIdentity": false
   },
   "model": {
+    "name": "gemini-3-flash-preview",
     "compressionThreshold": 0.75
   },
   "context": {
