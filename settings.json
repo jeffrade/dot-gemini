@@ -1,11 +1,6 @@
 {
   "theme": "Default",
   "selectedAuthType": "oauth-personal",
-  "security": {
-    "auth": {
-      "selectedType": "gemini-api-key"
-    }
-  },
   "general": {
     "plan": {
       "directory": "~/.gemini/plans"
@@ -33,6 +28,11 @@
   "context": {
     "fileFiltering": {
       "respectGitIgnore": false
+    }
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
     }
   }
 }
