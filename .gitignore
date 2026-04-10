@@ -5,6 +5,7 @@
 !/settings.json
 !/skills/
 !/.gitignore
+!GEMINI.md
 
 # Ensure no local/secret files inside the skills directory get tracked
 skills/**/.env
