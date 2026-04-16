@@ -8,5 +8,10 @@
     "overrides": [
       "/home/jrade/*"
     ]
+  },
+  "code-review": {
+    "overrides": [
+      "/home/jrade/*"
+    ]
   }
 }
