@@ -3,5 +3,10 @@
     "overrides": [
       "/home/jrade/*"
     ]
+  },
+  "gemini-cli-security": {
+    "overrides": [
+      "/home/jrade/*"
+    ]
   }
 }
